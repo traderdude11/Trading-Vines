@@ -5,17 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pro Trading Journal</title>
 <style>
-  body { font-family: Arial, sans-serif; background:#0b1220; color:#e5e7eb; margin:0; padding:16px; }
+  body { font-family: Arial, sans-serif; background:#f8fafc; color:#0f172a; margin:0; padding:16px; }
   h1 { text-align:center; margin-bottom:10px; }
   .topbar { display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin-bottom:12px; }
-  .card { background:#111827; border:1px solid #1f2937; border-radius:12px; padding:10px 12px; }
+  .card { background:#ffffff; border:1px solid #cbd5f5; border-radius:12px; padding:10px 12px; color:#0f172a; }
   .card b { color:#93c5fd; }
   button { background:#2563eb; color:#fff; border:none; padding:8px 12px; border-radius:10px; cursor:pointer; }
   button.secondary { background:#374151; }
-  table { width:100%; border-collapse:collapse; background:#0f172a; }
-  th, td { border:1px solid #1f2937; padding:6px; text-align:center; }
-  th { background:#1d4ed8; }
-  input { width:100%; box-sizing:border-box; padding:4px; border-radius:6px; border:1px solid #374151; background:#020617; color:#e5e7eb; }
+  table { width:100%; border-collapse:collapse; background:#ffffff; }
+  th, td { border:1px solid #cbd5f5; padding:6px; text-align:center; color:#0f172a; }
+  th { background:#3b82f6; color:#ffffff; }
+  input { width:100%; box-sizing:border-box; padding:4px; border-radius:6px; border:1px solid #94a3b8; background:#ffffff; color:#0f172a; }
   .profit { color:#22c55e; }
   .loss { color:#ef4444; }
   .small { font-size:12px; color:#9ca3af; }
@@ -179,4 +179,3 @@ addRow();
 
 </body>
 </html>
-
